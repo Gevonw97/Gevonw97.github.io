@@ -42,9 +42,9 @@ main {
 		#contact-heading {
 			background-color: rgb(39, 37, 37);
 
-			color: hsla(214, 82%, 60%, 1);
+			color: hsla(11, 72%, 84%, 1);
 
-			padding: 2px;
+			padding: 0.5em;
 
 			text-align: center;
 		}
@@ -52,9 +52,9 @@ main {
 		#proffessional-summary{
 			background-color: rgb(39, 37, 37);
 
-			color: hsla(214, 82%, 60%, 1);
+			color: hsla(11, 72%, 84%, 1);
 
-			padding: 2px;
+			padding: 0.5em;
 
 			text-align: center;
 		}
@@ -62,9 +62,9 @@ main {
 		#hobbies{
 			background-color: rgb(39, 37, 37);
 
-			color: hsla(214, 82%, 60%, 1);
+			color: hsla(11, 72%, 84%, 1);
 
-			padding: 2px;
+			padding: 0.5em;
 
 			text-align: center;
 		}
@@ -72,7 +72,7 @@ main {
 		main #right-side {
 			width: 75%;
 
-			background-color: hsla(214, 82%, 60%, 1);
+			background-color: #ffffff;
 
 			display: flex;
 				
@@ -103,7 +103,7 @@ main {
 			
 			justify-content: flex-start;
 			
-			color: hsla(11, 72%, 84%, 1);
+			color: hsla(214, 82%, 60%, 1)
 			
 			float: left;
 
@@ -119,7 +119,7 @@ main {
 		#experience {
 			width: 67%;
 			
-			background-color: hsla(214, 82%, 60%, 1);
+			background-color: #ffffff;
 			
 			display: flex;
 			
@@ -127,7 +127,7 @@ main {
 			
 			justify-content: flex-start;
 			
-			color: hsla(11, 72%, 84%, 1);
+			color: hsla(214, 82%, 60%, 1);
 			
 			font-size: 26px;
 			
@@ -141,7 +141,7 @@ main {
 		#references {
 			width: 67%;
 			
-			background-color: hsla(214, 82%, 60%, 1);
+			background-color: #ffffff;
 			
 			display: flex;
 			
@@ -149,7 +149,7 @@ main {
 			
 			justify-content: flex-start;
 			
-			color: hsla(11, 72%, 84%, 1);
+			color:hsla(214, 82%, 60%, 1);
 			
 			font-size: 26px;
 			
@@ -163,7 +163,7 @@ main {
 		p {
 		font-size: 16px;
 		
-		padding: 2px;
+		padding: 1em;
 		
 		margin: 2px;
 		
@@ -174,5 +174,3 @@ main {
 				text-style: italic;
 				font: Arial;
 		}
-			
-		
