@@ -95,7 +95,7 @@ main {
 		#education {
 			width: 67%;
 			
-			background-color: hsla(214, 82%, 60%, 1);
+			background-color: #ffffff;
 			
 			display: flex;
 			
@@ -103,7 +103,7 @@ main {
 			
 			justify-content: flex-start;
 			
-			color: hsla(214, 82%, 60%, 1)
+			color: hsla(214, 82%, 60%, 1);
 			
 			float: left;
 
