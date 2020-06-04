@@ -72,7 +72,7 @@ main {
 		main #right-side {
 			width: 75%;
 
-			background-color: #ffffff;
+			background-color: hsla(214, 82%, 60%, 1);
 
 			display: flex;
 				
@@ -95,7 +95,7 @@ main {
 		#education {
 			width: 67%;
 			
-			background-color: #ffffff;
+			background-color: rgb(39, 37, 37);
 			
 			display: flex;
 			
@@ -119,7 +119,7 @@ main {
 		#experience {
 			width: 67%;
 			
-			background-color: #ffffff;
+			background-color: rgb(39, 37, 37);
 			
 			display: flex;
 			
@@ -141,7 +141,7 @@ main {
 		#references {
 			width: 67%;
 			
-			background-color: #ffffff;
+			background-color: rgb(39, 37, 37);
 			
 			display: flex;
 			
@@ -173,4 +173,37 @@ main {
 		h1,h5 {	
 				text-style: italic;
 				font: Arial;
+		}
+		
+		@media only screen and (min-width: 678px) {
+						
+			width: 100%;
+			
+			display: flex;
+			
+			flex-direction: row;
+				
+			justify-content: flex-start;
+		}
+		
+		@media only printer and (min-width: 812px) {
+			
+			width: 100%;
+			
+			display: flex;
+			
+			flex-direction: row;
+				
+			justify-content: flex-start;
+		}
+		
+		@media all and (max-width: 1000px;) {
+			
+			width: 100%;
+			
+			display: flex;
+			
+			flex-direction: row;
+				
+			justify-content: flex-start;
 		}
